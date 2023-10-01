@@ -1,55 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Document Outline</title>
-</head>
-<body>
-  <article>
-    <img src="https://blog.ipleaders.in/wp-content/uploads/2021/10/Advertisement-Media.jpg" alt="An image of an advertisement" />
-    <header>
-      <h1>All about Semantic HTML</h1>
-    <nav>
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Sign Up</a></li>
-    </ul>
-    </nav>
-    </header>
-    <section> <!-- Add this -->
-      <h2>The Document Outline</h2>
-      <p>HTML5 includes several “sectioning content” elements that
-        affect the document outline.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic HTML</title>
+  </head>
+  <body>
+    <article>
+      <header>
+        <nav>
+          <img
+            src="https://blog.ipleaders.in/wp-content/uploads/2021/10/Advertisement-Media.jpg"
+            width="300"
+            alt="An image of an advertisement"
+          />
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Sign Up</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section>
+        <!-- Add this -->
+        <p>
+          HTML5 includes several “sectioning content” elements that affect the
+          document outline.
+        </p>
 
         <figure>
-          <img src="https://www.w3schools.com/html/img_sem_elements.gif" alt="Diagram Showing <article>, <section>" />
+          <img
+            src="https://www.w3schools.com/html/img_sem_elements.gif"
+            alt="Diagram Showing <article>, <section>"
+          />
           <figcaption>New HTML5 Semantic Element</figcaption>
         </figure>
-    
-      <h3>Headers</h3>
-      <p>The <code>&lt;header&gt;</code> element is one such sectioning
-        element.</p>
-    
-      <h3>Footers</h3>
-      <p>And so is the <code>&lt;footer&gt;</code> element.</p>
-    </section>    <!-- And this -->
-    
-    <section>     <!-- This too! -->
-      <h2>Inline Semantic HTML</h2>
-      <p>The <code>&lt;time&gt;</code> element is semantic, but it’s not
-        sectioning content.</p>
-    </section>    <!-- Don't forget this -->
-</article>
 
-<footer>
-<p>&copy; By KodeGo PH. Published 2023
-  <time datetime="2023-3-3">March 3rd</time>
-</p>
-</footer>
-<address>Please contact <a href="mailto:funj451@gmail.com" >Mae Nerosa</a> for question about this article</address>
-</body>
+        <h3>Headers</h3>
+        <p>
+          The <code>&lt;header&gt;</code> element is one such sectioning
+          element.
+        </p>
+
+        <h3>Footers</h3>
+        <p>And so is the <code>&lt;footer&gt;</code> element.</p>
+      </section>
+      <!-- And this -->
+
+      <section>
+        <!-- This too! -->
+        <h2>Inline Semantic HTML</h2>
+        <p>
+          The <code>&lt;time&gt;</code> element is semantic, but it’s not
+          sectioning content.
+        </p>
+      </section>
+      <!-- Don't forget this -->
+    </article>
+
+    <footer>
+      <p>
+        &copy; By KodeGo PH. Published 2023
+        <time datetime="2023-3-3">March 3rd</time>
+      </p>
+    </footer>
+    <address>
+      Please contact <a href="mailto:funj451@gmail.com">Mae Nerosa</a> for
+      question about this article
+    </address>
+  </body>
 </html>
